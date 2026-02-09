@@ -1092,21 +1092,3 @@ export function first_price_sjokolade_kjeks(grams_eaten) {
 		"grams_eaten": grams_eaten
 	}
 }
-
-
-
-export function custom(o) {
-	return {
-		name: o.name || 'custom thing',
-		"kj": 0,
-		"kcal": o.kcal || 0,
-		"fat_in_gram": 23.5,
-		"carbohydrates_in_gram": 62.9,
-		"sugar_in_gram": 34.4,
-		"fibre_in_gram": 3.2,
-		"protein_in_gram": o.protein || 0,
-		"salt_in_gram": 0.6,
-		raw_grams_eaten: 100,
-		"grams_eaten": 100,
-	}
-}
