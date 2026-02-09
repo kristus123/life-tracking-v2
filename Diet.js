@@ -29,9 +29,9 @@ function total(nutrition, eaten) {
 
 export const Diet = {
 	kcal: total("kcal", dietHistory),
-	fat_in_gram: total("fat_in_gram", dietHistory),
 	protein_in_gram: total("protein_in_gram", dietHistory),
-	fibre_in_gram: total("fibre_in_gram", dietHistory),
-	carbohydrates_in_gram: total("carbohydrates_in_gram", dietHistory),
-	sugar_in_gram: total("sugar_in_gram", dietHistory),
+	// fat_in_gram: total("fat_in_gram", dietHistory),
+	// fibre_in_gram: total("fibre_in_gram", dietHistory),
+	// carbohydrates_in_gram: total("carbohydrates_in_gram", dietHistory),
+	// sugar_in_gram: total("sugar_in_gram", dietHistory),
 }

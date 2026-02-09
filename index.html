@@ -1,22 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Diet Summary</title>
-	</head>
-	<body>
-		<h1>Diet Summary</h1>
-		<ul id="diet-stats"></ul>
-
-		<script type="module">
-			import { Diet } from './Diet.js';
-
-			for (const [key, value] of Object.entries(Diet)) {
-				const li = document.createElement('li');
-				li.textContent = `${key}: ${value.toFixed(2)}`;
-				document.body.appendChild(li);
-			}
-		</script>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <title>Diet Summary</title>
+	<link rel="stylesheet" href="style.css">
+    <script src="index.js" type="module"></script>
+</head>
+<body>
+</body>
 </html>
-
