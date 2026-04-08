@@ -12,6 +12,7 @@ const dietHistory = [
 	v.first_price_kjøttdeig(200),
 	v.rå_first_price_ris(100),
 
+	v.gule_epler(100),
 	v.honning(10),
 	v.gulrotbrød_fra_bakehuset(4*35),
 	v.almond(10),

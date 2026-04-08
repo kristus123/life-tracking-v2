@@ -734,11 +734,11 @@ export function gulrotbrød_fra_bakehuset(grams_eaten) {
 export function gule_epler(grams_eaten) { // todo verifiser
 	return {
 		name: "gule_epler",
-		kj: 199,
-		kcal: 47,
+		kj: 218,
+		kcal: 52,
 		fat_in_gram: 0.1,
 		carbohydrates_in_gram: 10,
-		sugar_in_gram: 0,
+		sugar_in_gram: 10,
 		fibre_in_gram: 2.5,
 		protein_in_gram: 0.3,
 		salt_in_gram: 0,
