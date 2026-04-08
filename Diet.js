@@ -9,9 +9,11 @@ const dietHistory = [
 	v.first_price_kjøttdeig(200),
 	v.rå_first_price_ris(50),
 
+	v.first_price_kjøttdeig(200),
+	v.rå_first_price_ris(50),
+
 	v.gulrotbrød_fra_bakehuset(2*35),
 	v.almond(10),
-
 	v.gresk_yoghurt(50),
 	v.norvegia_ost(50),
 	v.glass_of_milk(),
