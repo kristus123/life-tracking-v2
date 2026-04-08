@@ -2,7 +2,7 @@ import * as v from "./g100Values.js"
 
 const dietHistory = [
 	v.glass_of_milk(),
-	v.havregryn(50),
+	v.havregryn(40),
 	v.almond(20),
 	v.mørk_sjokolade(20),
 
