@@ -16,7 +16,7 @@ const dietHistory = [
 	v.honning(10),
 	v.gulrotbrød_fra_bakehuset(4*35),
 	v.almond(5),
-	v.gresk_yoghurt(100),
+	v.gresk_yoghurt(50),
 	v.havregryn(40),
 	v.norvegia_ost(40),
 	v.glass_of_milk(),
