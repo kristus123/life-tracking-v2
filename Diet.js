@@ -3,7 +3,7 @@ import * as v from "./g100Values.js"
 const dietHistory = [
 	v.glass_of_milk(),
 	v.havregryn(40),
-	v.almond(20),
+	v.almond(5),
 	v.mørk_sjokolade(20),
 
 	v.first_price_kjøttdeig(200),
@@ -12,10 +12,11 @@ const dietHistory = [
 	v.first_price_kjøttdeig(200),
 	v.rå_first_price_ris(75),
 
-	v.gulrotbrød_fra_bakehuset(2*35),
-	v.almond(10),
+	v.honning(10),
+	v.gulrotbrød_fra_bakehuset(3*35),
+	v.almond(5),
 	v.gresk_yoghurt(100),
-	v.norvegia_ost(50),
+	v.norvegia_ost(30),
 	v.glass_of_milk(),
 ]
 
