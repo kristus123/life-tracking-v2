@@ -4,7 +4,7 @@ const dietHistory = [
 	v.glass_of_milk(),
 	v.havregryn(40),
 	v.almond(5),
-	v.mørk_sjokolade(20),
+	// v.mørk_sjokolade(20),
 
 	v.first_price_kjøttdeig(150),
 	v.rå_first_price_ris(100),
