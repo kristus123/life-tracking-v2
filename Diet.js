@@ -7,10 +7,10 @@ const dietHistory = [
 	v.mørk_sjokolade(20),
 
 	v.first_price_kjøttdeig(200),
-	v.rå_first_price_ris(50),
+	v.rå_first_price_ris(75),
 
 	v.first_price_kjøttdeig(200),
-	v.rå_first_price_ris(50),
+	v.rå_first_price_ris(75),
 
 	v.gulrotbrød_fra_bakehuset(2*35),
 	v.almond(10),
