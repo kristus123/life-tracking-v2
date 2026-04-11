@@ -1,25 +1,39 @@
 import * as v from "./g100Values.js"
 
 const dietHistory = [
-	v.glass_of_milk(),
+
+	// frokost
+	v.milk(300),
 	v.havregryn(40),
-	v.almond(10),
-	// v.mørk_sjokolade(20),
+	// v.almond(5),
+	v.gule_epler(100), 
+	v.eldorado_frosne_bringebær(30),
+	v.mørk_sjokolade(20),
 
-	v.first_price_kjøttdeig(180),
-	v.rå_first_price_ris(75),
+	// lunsj
+	v.first_price_kjøttdeig(200),
+	v.eldorado_frossen_brokkoli(40),
+	v.rå_first_price_ris(100),
+	v.eldorado_frossen_mango(50),
 
-	v.first_price_kjøttdeig(180),
-	v.rå_first_price_ris(75),
+	// middag
+	v.first_price_kjøttdeig(200),
+	v.eldorado_frossen_brokkoli(40),
+	v.rå_first_price_ris(100),
+	v.eldorado_frossen_mango(50),
 
-	v.gule_epler(100),
+	// kvelds - 1
+	v.milk(300),
 	v.honning(10),
-	v.gulrotbrød_fra_bakehuset(4*35),
-	v.almond(10),
-	v.gresk_yoghurt(50),
+	// v.almond(5),
 	v.havregryn(40),
-	v.norvegia_ost(80),
-	v.glass_of_milk(),
+	v.gresk_yoghurt(100),
+	v.eldorado_frosne_bringebær(30),
+
+	// kvelds - 2
+	v.gulrotbrød_fra_bakehuset(4*35),
+	v.gule_epler(100),
+	v.norvegia_ost(20),
 ]
 
 function total(nutrition, eaten) {

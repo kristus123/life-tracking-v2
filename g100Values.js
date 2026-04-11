@@ -14,6 +14,22 @@ export function potet(grams_eaten) {
 	}
 }
 
+export function eldorado_frossen_mango(grams_eaten) {
+    return {
+        name: "eldorado mango",
+        kj: 296,
+        kcal: 70,
+        fat_in_gram: 0.4,
+        carbohydrates_in_gram: 15.0,
+        sugar_in_gram: 13.7,
+        fibre_in_gram: 1.6,
+        protein_in_gram: 0.8,
+        salt_in_gram: 0,
+        raw_grams_eaten: grams_eaten,
+        grams_eaten: grams_eaten
+    }
+}
+
 export function honning(grams_eaten) {
     return {
 		"name": "honning",
@@ -665,7 +681,7 @@ export function eldorado_frossen_avocado(grams_eaten) {
 }
 	
 
-export function glass_of_milk() {
+export function milk(grams_eaten) {
 	return {
 		name: "helmelk",
 		kj: 264,
@@ -676,8 +692,8 @@ export function glass_of_milk() {
 		fibre_in_gram: 0,
 		protein_in_gram: 3.4,
 		salt_in_gram: 0.1,
-		raw_grams_eaten: 200,
-		grams_eaten: 200,
+		raw_grams_eaten: grams_eaten,
+		grams_eaten: grams_eaten,
 	}
 }
 	
