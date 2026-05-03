@@ -4,34 +4,32 @@ const dietHistory = [
 
 	// frokost
 	v.milk(300),
-	v.havregryn(40),
-	// v.almond(5),
+	v.havregryn(50),
 	v.gule_epler(100), 
 	v.eldorado_frosne_bringebær(30),
-	v.mørk_sjokolade(20),
+	// v.mørk_sjokolade(20),
 
 	// lunsj
 	v.first_price_kjøttdeig(200),
 	v.eldorado_frossen_brokkoli(40),
 	v.rå_first_price_ris(100),
-	v.eldorado_frossen_mango(50),
+	v.eldorado_ananas_blikkboks(50),
 
 	// middag
 	v.first_price_kjøttdeig(200),
 	v.eldorado_frossen_brokkoli(40),
 	v.rå_first_price_ris(100),
-	v.eldorado_frossen_mango(50),
+	v.eldorado_ananas_blikkboks(50),
 
-	// kvelds - 1
+	// kvelds 1
 	v.milk(300),
 	v.honning(10),
-	// v.almond(5),
-	v.havregryn(40),
+	v.havregryn(50),
 	v.gresk_yoghurt(100),
-	v.eldorado_frosne_bringebær(30),
+	v.eldorado_frossen_mango(50),
 
-	// kvelds - 2
-	v.gulrotbrød_fra_bakehuset(4*35),
+	// kvelds 2
+	v.gulrotbrød_fra_bakehuset(5*35),
 	v.gule_epler(100),
 	v.norvegia_ost(20),
 ]

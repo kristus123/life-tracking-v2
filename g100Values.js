@@ -14,6 +14,22 @@ export function potet(grams_eaten) {
 	}
 }
 
+export function eldorado_ananas_blikkboks(grams_eaten) {
+    return {
+        "name": "ananas (Eldorado, boks i juice)",
+        kj: 240,
+        kcal: 57,
+        fat_in_gram: 0.1,
+        carbohydrates_in_gram: 13.5,
+        sugar_in_gram: 11.6,
+        fibre_in_gram: 1.1,
+        protein_in_gram: 0.4,
+        salt_in_gram: 0,
+        raw_grams_eaten: grams_eaten,
+        grams_eaten: grams_eaten
+    }
+}
+
 export function eldorado_frossen_mango(grams_eaten) {
     return {
         name: "eldorado mango",

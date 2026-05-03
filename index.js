@@ -1,24 +1,19 @@
 import { Diet } from './Diet.js';
 import { Macrogoals } from './MacroGoals.js';
 
+
+console.log("current diet")
+console.log("\n")
 for (const [key, value] of Object.entries(Diet)) {
-	const li = document.createElement('p');
-	li.textContent = `${key}: ${value.toFixed(2)}`;
-	document.body.appendChild(li);
+	console.log(key)
+	console.log("\t" + value.toFixed(2))
 }
 
-document.body.append('__')
-
+console.log("----------")
+console.log("\n")
+console.log("Macro Goals")
+console.log("\n")
 for (const [key, value] of Object.entries(Macrogoals)) {
-	const li = document.createElement('p');
-	li.textContent = `${key}: ${value.toFixed(2)}`;
-	document.body.appendChild(li);
+	console.log(key)
+	console.log("\t" + value.toFixed(2))
 }
-
-fetch('Diet.js')
-  .then(res => res.text())
-  .then(code => {
-    const pre = document.createElement('pre');
-    pre.textContent = code;
-    document.body.appendChild(pre);
-  });
