@@ -1,29 +1,36 @@
 import * as v from "./g100Values.js"
 
-const dietHistory = [
+const d = [
 
 	// frokost
 	v.milk(300),
+	v.honning(10),
+	v.gresk_yoghurt(50),
+	v.almond(10),
 	v.havregryn(40),
 	v.gule_epler(100), 
+	v.syltetøy(40),
 	v.eldorado_frosne_bringebær(30),
 
-	// kvelds 2 (mealpreppes paa morningen)
-	v.milk(300),
-	v.havregryn(40),
-	v.gresk_yoghurt(100),
-	v.eldorado_frossen_mango(50),
+	// lunsj og middag
+	v.first_price_kjøttdeig(150 * 2),
+	v.eldorado_frossen_brokkoli(100 * 2),
+	v.rå_first_price_ris(90 * 2),
+	v.ananas(100 * 2),
 
-	// lunsj og middag (lages sammen)
-	v.first_price_kjøttdeig(400),
-	v.eldorado_frossen_brokkoli(100),
-	v.rå_first_price_ris(200),
-	v.eldorado_ananas_blikkboks(140), // finn ut om denne er accurate
-
-	// kvelds 1
+	// kvelds
 	v.gulrotbrød_fra_bakehuset(4*35),
 	v.gule_epler(100),
-	v.norvegia_ost(60),
+	v.norvegia_ost(100),
+
+	// kvelds
+	v.milk(300),
+	v.honning(10),
+	v.syltetøy(40),
+	v.havregryn(40),
+	v.gresk_yoghurt(50),
+	v.eldorado_frosne_bringebær(30),
+	v.almond(10),
 ]
 
 function total(nutrition, eaten) {
@@ -33,10 +40,10 @@ function total(nutrition, eaten) {
 }
 
 export const Diet = {
-	kcal: total("kcal", dietHistory),
-	protein_in_gram: total("protein_in_gram", dietHistory),
-	fat_in_gram: total("fat_in_gram", dietHistory),
-	fibre_in_gram: total("fibre_in_gram", dietHistory),
-	carbohydrates_in_gram: total("carbohydrates_in_gram", dietHistory),
-	sugar_in_gram: total("sugar_in_gram", dietHistory),
+	kcal: total("kcal", d),
+	protein_in_gram: total("protein_in_gram", d),
+	fat_in_gram: total("fat_in_gram", d),
+	fibre_in_gram: total("fibre_in_gram", d),
+	carbohydrates_in_gram: total("carbohydrates_in_gram", d),
+	sugar_in_gram: total("sugar_in_gram", d),
 }

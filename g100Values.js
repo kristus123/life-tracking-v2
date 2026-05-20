@@ -14,13 +14,13 @@ export function potet(grams_eaten) {
 	}
 }
 
-export function eldorado_ananas_blikkboks(grams_eaten) {
+export function ananas(grams_eaten) {
     return {
         "name": "ananas (Eldorado, boks i juice)",
         kj: 240,
-        kcal: 57,
-        fat_in_gram: 0.1,
-        carbohydrates_in_gram: 13.5,
+        kcal: 55,
+        fat_in_gram: 0.0,
+        carbohydrates_in_gram: 13.4,
         sugar_in_gram: 11.6,
         fibre_in_gram: 1.1,
         protein_in_gram: 0.4,
